@@ -110,7 +110,7 @@ export function NudgesSystem() {
               <div className="flex-1 space-y-2">
                 <div className="flex items-center gap-2">
                   <h4 className="font-medium">{nudge.title}</h4>
-                  <Badge variant={priorityColors[nudge.priority]} size="sm">
+                  <Badge variant={priorityColors[nudge.priority as keyof typeof priorityColors]}>
                     {nudge.priority}
                   </Badge>
                 </div>
