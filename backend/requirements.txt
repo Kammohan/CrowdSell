@@ -1,0 +1,11 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+pydantic==2.7.0
+pydantic-settings==2.4.0
+python-dotenv==1.0.1
+psycopg[binary]==3.2.10
+redis==5.0.7
+structlog==24.1.0
+stripe==10.8.0
+twilio==9.1.0
+
